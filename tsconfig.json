@@ -1,0 +1,4 @@
+{
+  "include": ["sst-env.d.ts"],
+  "exclude": ["sst.config.ts"]
+}

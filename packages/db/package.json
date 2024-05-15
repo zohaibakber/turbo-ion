@@ -1,0 +1,20 @@
+{
+  "name": "db",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "db:generate": "sst shell drizzle-kit generate",
+    "db:migrate": "sst shell drizzle-kit migrate",
+    "db:studio": "sst shell drizzle-kit studio",
+    "db:drop": "sst shell drizzle-kit drop"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.3",
+    "drizzle-orm": "latest"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "drizzle-kit": "latest"
+  }
+}
